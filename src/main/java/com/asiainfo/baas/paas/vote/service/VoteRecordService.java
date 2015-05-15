@@ -10,7 +10,7 @@ public class VoteRecordService {
 	 * 
 	 * @param voteRecord
 	 */
-	public VoteRecord createVoteRecord(VoteRecord voteRecord) {
+	public static VoteRecord createVoteRecord(VoteRecord voteRecord) {
 		// TODO - implement VoteRecordServiceImpl.createVoteRecord
 		throw new UnsupportedOperationException();
 	}
@@ -19,7 +19,7 @@ public class VoteRecordService {
 	 * 
 	 * @param activityId
 	 */
-	public Map<String, Object> showVoteRecord(int activityId) {
+	public static Map<String, Object> showVoteRecord(int activityId) {
 		// TODO - implement VoteRecordServiceImpl.showVoteRecord
 		throw new UnsupportedOperationException();
 	}
