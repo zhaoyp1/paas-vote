@@ -1,13 +1,15 @@
 package com.asiainfo.baas.paas.vote.model;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
 /**
  * 活动信息表
  */
-public class VoteActivity {
+public class VoteActivity implements Serializable{
 
+	private static final long serialVersionUID = 1L;
 	/**
 	 * 活动ID
 	 */

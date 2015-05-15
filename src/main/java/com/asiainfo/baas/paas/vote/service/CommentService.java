@@ -13,7 +13,7 @@ public class CommentService {
 	 * @param activeInfo
 	 * @param optionInfo
 	 */
-	public Comment createComment(VoteActivity activeInfo, Option optionInfo) {
+	public static Comment createComment(VoteActivity activeInfo, Option optionInfo) {
 		// TODO - implement CommentServiceImpl.createComment
 		throw new UnsupportedOperationException();
 	}
@@ -22,7 +22,7 @@ public class CommentService {
 	 * 
 	 * @param activity
 	 */
-	public List<Comment> searchComments(VoteActivity activity) {
+	public static List<Comment> searchComments(VoteActivity activity) {
 		// TODO - implement CommentServiceImpl.searchComments
 		throw new UnsupportedOperationException();
 	}

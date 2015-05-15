@@ -1,12 +1,14 @@
 package com.asiainfo.baas.paas.vote.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * 投票日志
  */
-public class VoteRecord {
+public class VoteRecord implements Serializable{
 
+	private static final long serialVersionUID = 1L;
 	/**
 	 * 投票日志ID
 	 */

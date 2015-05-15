@@ -1,10 +1,13 @@
 package com.asiainfo.baas.paas.vote.model;
 
+import java.io.Serializable;
+
 /**
  * 选项信息
  */
-public class Option {
+public class Option implements Serializable{
 
+	private static final long serialVersionUID = 1L;
 	/**
 	 * 选项编号
 	 */
