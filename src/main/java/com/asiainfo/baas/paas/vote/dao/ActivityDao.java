@@ -1,11 +1,15 @@
 package com.asiainfo.baas.paas.vote.dao;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.asiainfo.baas.paas.vote.model.Activity;
 
 public class ActivityDao {
+	
+	public static Map<String,Object> result=new HashMap<String,Object>();
 	
 	public static void createActivity(Activity activity) {
 		//

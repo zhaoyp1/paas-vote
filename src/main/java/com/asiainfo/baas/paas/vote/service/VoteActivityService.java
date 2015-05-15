@@ -8,7 +8,7 @@ public class VoteActivityService {
 	 * 
 	 * @param voteActivity
 	 */
-	public VoteActivity publishVoteActivity(VoteActivity voteActivity) {
+	public static VoteActivity publishVoteActivity(VoteActivity voteActivity) {
 		// TODO - implement VoteActivityServiceImpl.publishVoteActivity
 		throw new UnsupportedOperationException();
 	}
@@ -17,7 +17,7 @@ public class VoteActivityService {
 	 * 
 	 * @param id
 	 */
-	public void deleteVoteActivity(int id) {
+	public static void deleteVoteActivity(int id) {
 		// TODO - implement VoteActivityServiceImpl.deleteVoteActivity
 		throw new UnsupportedOperationException();
 	}

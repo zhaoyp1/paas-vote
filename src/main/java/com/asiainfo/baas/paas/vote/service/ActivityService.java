@@ -8,6 +8,7 @@ import com.asiainfo.baas.paas.vote.model.Activity;
 public class ActivityService {
 	
 	public static void createActivity(Activity activity) {
+		
 		ActivityDao.createActivity(activity);
 	}
 	
